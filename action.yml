@@ -1,0 +1,44 @@
+name: "Helm"
+description: "Helm check and publish"
+author: "Nicolas Pearson"
+inputs:
+  chartsLocation:
+    description: "Charts code location path"
+    default: "helm/charts"
+    required: false
+  chartName:
+    description: "The name of the chart to check"
+    required: true
+  chartValues:
+    description: "The chart values to test"
+    required: false
+  githubEmail:
+    description: "The github email to commit with"
+    required: true
+  githubUser:
+    description: "The github user to commit with"
+    required: true
+  githubUsername:
+    description: "The github username to commit with"
+    required: true
+  githubToken:
+    description: "The github token to use for pushing package commits"
+    required: true
+  rebase:
+    description: "Rebase master into the current branch before publishing"
+    default: "false"
+    required: false
+  publish:
+    description: "Package and publish chart"
+    default: "false"
+    required: false
+  releasesLocation:
+    description: "Chart releases location path"
+    default: "helm/releases"
+    required: false
+runs:
+  using: "docker"
+  image: "Dockerfile"
+branding:
+  icon: "cloud"
+  color: "blue"
