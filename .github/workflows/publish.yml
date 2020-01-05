@@ -6,7 +6,7 @@ jobs:
     steps:
       - uses: actions/checkout@master
       - name: Publish to github registry
-        uses: nicolaspearson/helm.github.action@master
+        uses: nicolaspearson/docker.publish.github.action@master
         with:
           name: docker.pkg.github.com/nicolaspearson/helm.github.action/helm.github.action
           username: ${{ secrets.DOCKER_GITHUB_USERNAME }}
