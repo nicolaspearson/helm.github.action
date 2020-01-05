@@ -24,7 +24,7 @@ Add check chart step to your flow
 
 ```yaml
 - name: Check chart
-  uses: nicolaspearson/helm-action@master
+  uses: nicolaspearson/helm.github.action@master
   with:
     chartName: myChart
     chartValueFiles:
@@ -35,7 +35,7 @@ Add check chart step to your flow (and publish afterwards)
 
 ```yaml
 - name: Publish chart
-  uses: nicolaspearson/helm-action@master
+  uses: nicolaspearson/helm.github.action@master
   with:
     chartName: myChart
     githubToken: ${{ secrets.MY_GITHUB_TOKEN }}
