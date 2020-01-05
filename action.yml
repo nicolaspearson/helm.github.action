@@ -1,5 +1,5 @@
-name: "Helm"
-description: "Helm check and publish"
+name: "Helm Check & Publish"
+description: "Helm check and publish charts"
 author: "Nicolas Pearson"
 branding:
   icon: "cloud"
