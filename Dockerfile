@@ -13,7 +13,7 @@ LABEL version="1.0.0"
 LABEL repository="https://github.com/nicolaspearson/helm.github.action"
 LABEL maintainer="Nicolas Pearson"
 
-ENV HELM_VERSION="v3.0.2"
+ENV HELM_VERSION="v3.0.0"
 
 RUN apk add --no-cache bash ca-certificates curl git gnupg jq nodejs npm python tar wget
 
