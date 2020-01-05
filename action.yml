@@ -1,6 +1,9 @@
 name: "Helm"
 description: "Helm check and publish"
 author: "Nicolas Pearson"
+branding:
+  icon: "cloud"
+  color: "blue"
 inputs:
   chartsLocation:
     description: "Charts code location path"
@@ -39,6 +42,3 @@ inputs:
 runs:
   using: "docker"
   image: "Dockerfile"
-branding:
-  icon: "cloud"
-  color: "blue"
