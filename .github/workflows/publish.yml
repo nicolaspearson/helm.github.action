@@ -1,0 +1,14 @@
+name: publish
+on: [push]
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@master
+      - name: Publish to github registry
+        uses: nicolaspearson/helm.github.action@master
+        with:
+          name: docker.pkg.github.com/nicolaspearson/helm.github.action/helm.github.action
+          username: ${{ secrets.DOCKER_GITHUB_USERNAME }}
+          password: ${{ secrets.GITHUB_TOKEN }}
+          registry: docker.pkg.github.com
