@@ -2,14 +2,14 @@
 #                       Dockerfile
 # ------------------------------------------------------
 # image:    helm.github.action
+# name:     nicolaspearson/helm.github.action/helm.github.action:master
 # repo:     https://github.com/nicolaspearson/helm.github.action
-# Requires: docker:19.03
+# requires: docker:19.03
 # authors:  Nicolas Pearson
 # ------------------------------------------------------
 
 FROM docker:19.03
 
-LABEL version="1.0.0"
 LABEL repository="https://github.com/nicolaspearson/helm.github.action"
 LABEL maintainer="Nicolas Pearson"
 
