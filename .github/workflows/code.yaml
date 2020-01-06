@@ -24,7 +24,7 @@ jobs:
   test:
     name: lint and test
     runs-on: ubuntu-latest
-    container: nicpearson/node-slim-icu
+    container: nicpearson/node-slim-icu:latest
     steps:
     - name: Checkout git repository
       uses: actions/checkout@master
