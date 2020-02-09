@@ -22,22 +22,22 @@
   "author": "Nicolas Pearson",
   "license": "MIT",
   "dependencies": {
-    "@actions/core": "~1.2.0",
-    "@actions/github": "~2.0.0",
+    "@actions/core": "~1.2.2",
+    "@actions/github": "~2.1.0",
     "common-tags": "~1.8.0",
     "shelljs": "~0.8.3"
   },
   "devDependencies": {
     "@types/common-tags": "~1.8.0",
-    "@types/jest": "~24.0.25",
-    "@types/node": "~13.1.4",
+    "@types/jest": "~25.1.2",
+    "@types/node": "~13.7.0",
     "@types/shelljs": "~0.8.6",
-    "jest": "~24.9.0",
-    "jest-circus": "~24.9.0",
+    "jest": "~25.1.0",
+    "jest-circus": "~25.1.0",
     "npm-check-updates": "~4.0.1",
-    "ts-jest": "~24.2.0",
-    "tslint": "~5.20.1",
+    "ts-jest": "~25.2.0",
+    "tslint": "~6.0.0",
     "tslint-config-airbnb": "~5.11.2",
-    "typescript": "~3.7.4"
+    "typescript": "~3.7.5"
   }
 }
