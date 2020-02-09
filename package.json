@@ -22,7 +22,7 @@
   "author": "Nicolas Pearson",
   "license": "MIT",
   "dependencies": {
-    "@actions/core": "~1.2.0",
+    "@actions/core": "~1.2.2",
     "@actions/github": "~2.0.0",
     "common-tags": "~1.8.0",
     "shelljs": "~0.8.3"
